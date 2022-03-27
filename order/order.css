@@ -1,0 +1,185 @@
+ * {
+     font-family: 'Zilla Slab', serif;
+ }
+ 
+ .s_name,
+ .urname,
+ .messa,
+ .inclu_dad,
+ .date,
+ .choose,
+ .mess {
+     display: flex;
+     position: relative;
+ }
+ 
+ h1 {
+     margin-bottom: 0px;
+ }
+ 
+ .input_form {
+     width: 634px;
+     height: 32px;
+ }
+ 
+ .label_form {
+     width: 190px;
+ }
+ 
+ .ysno,
+ .op {
+     margin-left: -4px;
+ }
+ 
+ .cho_sho {
+     width: 640px;
+     height: 36px;
+ }
+ 
+ .cho_date {
+     width: 634px;
+     height: 34px;
+ }
+ 
+ .addbox {
+     line-height: 150px;
+ }
+ 
+ .in {
+     line-height: 60px;
+ }
+ 
+ .chung {
+     line-height: 36px;
+ }
+ 
+ input,
+ .cho_sho,
+ textarea {
+     border: 1px solid indianred;
+ }
+ 
+ h1,
+ label,
+ input {
+     color: indianred;
+ }
+ 
+ body {
+     margin-left: 27px;
+ }
+ 
+ .main {
+     margin-left: 16px;
+ }
+ 
+ .sub {
+     width: 76px;
+     height: 36px;
+     margin-left: 186px;
+     border-radius: 8px;
+     background-color: indianred;
+     color: #FFF;
+ }
+ 
+ p {
+     margin-left: 189px;
+     color: red;
+ }
+ 
+ input#order {
+     margin-top: 23px;
+ }
+ 
+ .date {
+     margin-top: 16px;
+ }
+ 
+ .hop {
+     width: 634px;
+     height: 150px;
+ }
+ 
+ @media screen and (max-width:767px) {
+     .s_name,
+     .urname,
+     .messa,
+     .inclu_dad,
+     .date,
+     .choose,
+     .mess {
+         display: block;
+     }
+     .mot,
+     .hai {
+         display: block;
+     }
+     .in {
+         line-height: 35px;
+     }
+     .addbox {
+         line-height: 34px;
+     }
+     .cho_date {
+         width: 90%;
+         height: 34px;
+     }
+     .cho_sho {
+         width: 91%;
+         height: 36px;
+     }
+     .input_form {
+         width: 90%;
+         height: 32px;
+     }
+     .hop {
+         width: 90%;
+         height: 154px;
+     }
+     #order {
+         /* margin-left:  */
+         margin-left: 0;
+     }
+ }
+ 
+ @media screen and (min-width:768px) and (max-width:992px) {
+     .s_name,
+     .urname,
+     .messa,
+     .inclu_dad,
+     .date,
+     .choose,
+     .mess {
+         display: block;
+     }
+     .mot,
+     .hai {
+         display: block;
+     }
+     .in {
+         line-height: 35px;
+     }
+     .addbox {
+         line-height: 34px;
+     }
+     .cho_date {
+         width: 90%;
+         height: 34px;
+     }
+     .cho_sho {
+         width: 91%;
+         height: 36px;
+     }
+     .input_form {
+         width: 90%;
+         height: 32px;
+     }
+     .hop {
+         width: 90%;
+         height: 154px;
+     }
+     #order {
+         /* margin-left:  */
+         margin-left: 0;
+     }
+ }

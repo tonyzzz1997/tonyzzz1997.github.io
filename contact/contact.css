@@ -1,0 +1,128 @@
+h1,
+label,
+p {
+    font-family: 'Zilla Slab', serif;
+}
+
+.ten,
+.email__ad,
+.note,
+.mess {
+    display: flex;
+    position: relative;
+}
+
+.form__input {
+    width: 450px;
+}
+
+.form__input:not(.messbox) {
+    height: 21px;
+}
+
+.form__label {
+    width: 130px;
+    text-align: center;
+    vertical-align: 50%;
+}
+
+.check {
+    margin-left: 126px;
+    height: 35px;
+}
+
+.main {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form__label:last-child {
+    top: 50px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-left: 127px;
+}
+
+h1,
+label,
+input {
+    color: indianred;
+}
+
+input,
+textarea {
+    border: 1px solid indianred;
+}
+
+.check {
+    background-color: indianred;
+    color: white;
+    border-radius: 5px;
+}
+
+.nameh,
+.emailh,
+.subh {
+    line-height: 25px;
+}
+
+.messh {
+    line-height: 81px;
+}
+
+@media screen and (max-width:767px) {
+    .ten,
+    .email__ad,
+    .note,
+    .mess {
+        display: block;
+    }
+    .form__label,
+    .form__input {
+        display: block;
+    }
+    .messh {
+        line-height: 26px;
+    }
+    .form__input {
+        width: 90%;
+        margin-left: 28px;
+    }
+    .check {
+        margin-left: 80%;
+        height: 35px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .ten,
+    .email__ad,
+    .note,
+    .mess {
+        display: block;
+    }
+    .form__label,
+    .form__input {
+        display: block;
+    }
+    .messh {
+        line-height: 26px;
+    }
+    .form__input {
+        width: 90%;
+        margin-left: 28px;
+    }
+    .check {
+        margin-left: 543px;
+        height: 35px;
+    }
+    .check {
+        margin-left: 3%;
+        height: 35px;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;1,400&family=Patrick+Hand&family=Permanent+Marker&family=Source+Sans+Pro:wght@200;300;400&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+
+
+
+        <h1>Contact Me</h1>
+        <hr>
+
+        <div class="ten">
+            <label class="form__label nameh" for="name">Your name:</label>
+            <input class="form__input" type="text" id="name" name="name" placeholder="Please enter full name" maxlength="100">
+
+        </div>
+        <p id="error__name"></p><br>
+        <div class="email__ad">
+
+            <label class="form__label emailh" for="email">Your email:</label>
+
+            <input class="form__input" type="email" id="email" name="email" placeholder="Please enter real email">
+        </div>
+        <p id="error__email"></p><br>
+        <div class="note">
+            <label class="form__label subh" for="subject">Subject:</label>
+            <input class="form__input" type="text" name="subject" id="subject">
+        </div>
+        <p id="error__subject"></p><br>
+        <div class="mess">
+            <label class="form__label labelmess messh" for="message">Message:</label>
+            <textarea class="form__input messbox" name="message" id="message" rows="5" cols="15"></textarea>
+        </div>
+        <p id="error__mess"></p>
+        <br>
+        <input class="check" type="submit" value="Send message" onclick="check()">
+
+    </div>
+
+
+
+</body>
+
+</html>

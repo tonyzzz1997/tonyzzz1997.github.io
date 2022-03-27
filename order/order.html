@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="order.js"></script>
+    <link rel="stylesheet" href="order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;1,400&family=Patrick+Hand&family=Permanent+Marker&family=Source+Sans+Pro:wght@200;300;400&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Order now</h1>
+        <hr>
+    </div>
+    <div class="main">
+        <div class="s_name">
+            <label class="label_form mot chung" for="choose">Shoes name:</label>
+            <select id="choose" name="choose" class="cho_sho hai"> 
+                <option   value="" disabled selected><span style="color: indianred;">"---Select Shoes---"</span></option>
+                <option>Adidas Yeezy 350</option>
+    
+                <option>Balenciaga Triple S</option>
+                <option>Gucci Bee</option>
+                <option>Nike Jordan 1</option>
+            </select>
+
+
+        </div>
+        <p id="forshoes"></p>
+        <div class="urname">
+            <label class="label_form mot chung" for="name">Your name:</label>
+            <input class="input_form hai" type="text" id="name" name="name" placeholder="type your name!">
+
+        </div>
+        <p id="forname"></p>
+        <div class="messa">
+            <label for="mess" class="label_form mot chung">Message:</label>
+            <input class="input_form hai" type="text" id="mess" name="message" placeholder="Type your memo here!">
+
+        </div>
+        <p id="formess"></p>
+        <div class="inclu_dad">
+            <div class="inclu mot label_form">
+                <label class="label_form in" for="includes">Includes:</label>
+            </div>
+            <div class="hai op">
+                <input class="input_check" type="checkbox" id="candle" name="opt">
+                <label class="label_form" for="candle">candle</label>
+                <br>
+                <input class="input_check" type="checkbox" id="firework" name="opt">
+                <label class="label_form" for="firework">Firework</label>
+                <br>
+                <input class="input_check" type="checkbox" name="opt" id="toys">
+                <label class="label_form" for="toys">Toys</label>
+            </div>
+        </div>
+
+        <div class="date">
+            <label class="label_form mot chung" for="date">Deliver date:</label>
+            <input class="cho_date hai" type="date" id="date" name="date">
+
+        </div>
+        <p id="fordate"></p>
+        <div class="mess">
+            <label for="add" class="label_form mot addbox">Deliver to:</label>
+            <textarea class="hai hop" id="add" name="add" rows="5" cols="35"></textarea>
+
+        </div>
+        <p id="foradd"></p>
+        <div class="choose">
+            <div class="deli_head label_form">
+                <label class="label_form mot" for="deli">Call befor deliver?</label>
+            </div>
+            <div class="ysno hai">
+                <input type="radio" class="input_check" id="yes" name="choo">
+                <label for="yes" class="label_form">Yes</label>
+                <input type="radio" class="input_check" id="no" name="choo">
+                <label for="no" class="label_form">No</label>
+            </div>
+        </div>
+        <div class="od">
+
+            <input class="sub" type="submit" id="order" name="order" value="Order now" onclick="check()">
+        </div>
+    </div>
+</body>
+
+</html>
